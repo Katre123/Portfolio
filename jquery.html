@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+	 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<link rel='stylesheet' href='harjutus11.css'>
+
+</head>
+
+<body>
+	<script src="jquery.js"></script>
+
+<div class="container">
+  <h2>JQuery harjutus </h2>
+  <ul class="responsive-table">
+    <li class="table-header">
+      <div class="col col-10">Costumer</div>
+      <div class="col col-20">Name</div>
+      <div class="col col-30">Amount</div>
+      <div class="col col-40">Payment Status</div>
+    </li>
+	 <li class="table-row">
+      <div class="col col-1" data-label=" Id">00219</div>
+      <div class="col col-2" data-label="Customer Name">Jaanus Karu</div>
+      <div class="col col-3" data-label="Amount">$115</div>
+      <div class="payed" data-label="Payment Status">Payed</div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label="Id">00147</div>
+      <div class="col col-2" data-label="Customer Name">Johnny Depp</div>
+      <div class="col col-3" data-label="Amount">$350</div>
+      <div class="pending" data-label="Payment Status">Pending</div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label=" Id">00099</div>
+      <div class="col col-2" data-label="Customer Name">Aston Kutcher</div>
+      <div class="col col-3" data-label="Amount">$220</div>
+      <div class="pending" data-label="Payment Status">Pending</div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label=" Id">00665</div>
+      <div class="col col-2" data-label="Customer Name">Leonardo DiCaprio</div>
+      <div class="col col-3" data-label="Amount">$341</div>
+      <div class="unpayed" data-label="Payment Status">Unpayed </div>
+    </li>
+    <li class="table-row">
+      <div class="col col-1" data-label=" Id">00660</div>
+      <div class="col col-2" data-label="Customer Name">Halley Berry</div>
+      <div class="col col-3" data-label="Amount">$115</div>
+      <div class="pending" data-label="Payment Status">Pending</div>
+    </li>
+	  <li class="table-row">
+      <div class="col col-1" data-label=" Id">00711</div>
+      <div class="col col-2" data-label="Customer Name">Triin Taru</div>
+      <div class="col col-3" data-label="Amount">$115</div>
+      <div class="payed" data-label="Payment Status">Payed</div>
+    </li>
+	
+	<button class='button' type='payed'> Payed </button>
+	<button class='button' type='unpayed'> Unpayed </button>
+	<button class='button' type='pending'> Pending </button>
+	
+  </ul>
+</div>
+
+</body>
+
+</html>
